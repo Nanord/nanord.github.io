@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['mainwindow',['MainWindow',['../a00029.html#a8b244be8b7b7db1b08de2a2acb9409db',1,'MainWindow']]]
+  ['calc',['calc',['../a00028.html#adf67800c10da97b39f6f05ac75a1004a',1,'calculate']]],
+  ['calculate',['calculate',['../a00028.html#a352f80b4fd605c55d8715989dbaa1abe',1,'calculate']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mainwindow',['MainWindow',['../a00029.html',1,'MainWindow'],['../a00029.html#a8b244be8b7b7db1b08de2a2acb9409db',1,'MainWindow::MainWindow()']]]
+  ['get',['get',['../a00028.html#af19e3a32ffe1de21111b6bb167c1d905',1,'calculate']]]
 ];

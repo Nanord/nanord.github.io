@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "Калькулятор смет", "index.html", [
-    [ "Список задач", "a00020.html", null ],
     [ "Пространства имен", null, [
       [ "Пространства имен", "namespaces.html", "namespaces" ]
     ] ],
@@ -14,13 +13,21 @@ var NAVTREE =
         [ "Функции", "functions_func.html", null ],
         [ "Переменные", "functions_vars.html", null ]
       ] ]
+    ] ],
+    [ "Файлы", null, [
+      [ "Файлы", "files.html", "files" ],
+      [ "Список членов всех файлов", "globals.html", [
+        [ "Указатель", "globals.html", null ],
+        [ "Функции", "globals_func.html", null ],
+        [ "Элементы перечислений", "globals_eval.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"a00020.html"
+"a00002.html"
 ];
 
 var SYNCONMSG = 'нажмите на выключить для синхронизации панелей';

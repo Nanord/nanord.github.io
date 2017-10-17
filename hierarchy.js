@@ -1,7 +1,7 @@
 var hierarchy =
 [
-    [ "calculate", "a00025.html", null ],
+    [ "calculate", "a00028.html", null ],
     [ "QMainWindow", null, [
-      [ "MainWindow", "a00029.html", null ]
+      [ "MainWindow", "a00032.html", null ]
     ] ]
 ];
