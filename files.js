@@ -1,12 +1,8 @@
 var files =
 [
-    [ "calculate.cpp", "calculate_8cpp.html", null ],
-    [ "calculate.h", "calculate_8h.html", [
-      [ "calculate", "classcalculate.html", "classcalculate" ]
-    ] ],
-    [ "main.cpp", "main_8cpp.html", "main_8cpp" ],
-    [ "mainwindow.cpp", "mainwindow_8cpp.html", "mainwindow_8cpp" ],
-    [ "mainwindow.h", "mainwindow_8h.html", [
-      [ "MainWindow", "class_main_window.html", "class_main_window" ]
-    ] ]
+    [ "calculate.cpp", "calculate_8cpp_source.html", null ],
+    [ "calculate.h", "calculate_8h_source.html", null ],
+    [ "main.cpp", "main_8cpp_source.html", null ],
+    [ "mainwindow.cpp", "mainwindow_8cpp_source.html", null ],
+    [ "mainwindow.h", "mainwindow_8h_source.html", null ]
 ];

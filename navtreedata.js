@@ -1,6 +1,6 @@
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "Калькулятор смет", "index.html", [
     [ "123", "md__r_e_a_d_m_e.html", null ],
     [ "Список задач", "todo.html", null ],
     [ "Пространства имен", null, [
@@ -17,12 +17,7 @@ var NAVTREE =
       ] ]
     ] ],
     [ "Файлы", null, [
-      [ "Файлы", "files.html", "files" ],
-      [ "Список членов всех файлов", "globals.html", [
-        [ "Указатель", "globals.html", null ],
-        [ "Функции", "globals_func.html", null ],
-        [ "Элементы перечислений", "globals_eval.html", null ]
-      ] ]
+      [ "Файлы", "files.html", "files" ]
     ] ]
   ] ]
 ];

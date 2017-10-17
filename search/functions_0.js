@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['calc',['calc',['../classcalculate.html#adf67800c10da97b39f6f05ac75a1004a',1,'calculate']]],
-  ['calculate',['calculate',['../classcalculate.html#ae9ae84fe5b924e90d2eff41493319389',1,'calculate']]]
+  ['mainwindow',['MainWindow',['../class_main_window.html#a8b244be8b7b7db1b08de2a2acb9409db',1,'MainWindow']]]
 ];
