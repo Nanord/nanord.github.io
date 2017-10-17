@@ -21,7 +21,8 @@ var NAVTREE =
         [ "Функции", "globals_func.html", null ],
         [ "Элементы перечислений", "globals_eval.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "Примеры", "examples.html", "examples" ]
   ] ]
 ];
 

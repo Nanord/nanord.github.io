@@ -87,6 +87,7 @@ $(document).ready(function(){initNavTree('a00032.html','');});
   <div class="summary">
 <a href="#pub-methods">Открытые члены</a> &#124;
 <a href="#pub-attribs">Открытые атрибуты</a> &#124;
+<a href="#pro-methods">Защищенные члены</a> &#124;
 <a href="a00029.html">Полный список членов класса</a>  </div>
   <div class="headertitle">
 <div class="title">Класс MainWindow</div>  </div>
@@ -108,6 +109,13 @@ $(document).ready(function(){initNavTree('a00032.html','');});
 Открытые атрибуты</h2></td></tr>
 <tr class="memitem:ad1e712b13ea93ba85f22fd93325e2eb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00032.html#ad1e712b13ea93ba85f22fd93325e2eb9">formState</a></td></tr>
 <tr class="separator:ad1e712b13ea93ba85f22fd93325e2eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Защищенные члены</h2></td></tr>
+<tr class="memitem:ac7c881667b4ba4986b5a0030452ee3f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00032.html#ac7c881667b4ba4986b5a0030452ee3f0">changeEvent</a> (QEvent *event)</td></tr>
+<tr class="separator:ac7c881667b4ba4986b5a0030452ee3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91a88ab715962c5640d313fb4688f159"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="a00032.html#a91a88ab715962c5640d313fb4688f159">createLanguageMenu</a> (QMenu *languageMenu)</td></tr>
+<tr class="separator:a91a88ab715962c5640d313fb4688f159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Подробное описание</h2>
 <div class="textblock"><p>Обработка пользовательского интерфеса и взаимодействие с библиотеками </p><dl class="section author"><dt>Автор</dt><dd>Borisov Alexander </dd></dl>
@@ -146,6 +154,11 @@ $(document).ready(function(){initNavTree('a00032.html','');});
   </table>
   </dd>
 </dl>
+<p>Чтение файла стилей</p>
+<p>Подключение стилей</p>
+<p>Создание Action в MenuBar</p>
+<p>Создаем таблицу</p>
+<p>Защита от дурака </p>
 
 </div>
 </div>
@@ -165,6 +178,73 @@ $(document).ready(function(){initNavTree('a00032.html','');});
 </div><div class="memdoc">
 
 <p>Конструктор </p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a id="ac7c881667b4ba4986b5a0030452ee3f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7c881667b4ba4986b5a0030452ee3f0">&#9670;&nbsp;</a></span>changeEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::changeEvent </td>
+          <td>(</td>
+          <td class="paramtype">QEvent *&#160;</td>
+          <td class="paramname"><em>event</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Обработчик событий </p>
+<dl class="params"><dt>Аргументы</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">QEvent*</td><td>event </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Возвращает</dt><dd>void </dd></dl>
+<p>Событие при окончании загрузки перевода</p>
+<p>Событие при смене языка </p>
+
+</div>
+</div>
+<a id="a91a88ab715962c5640d313fb4688f159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91a88ab715962c5640d313fb4688f159">&#9670;&nbsp;</a></span>createLanguageMenu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void MainWindow::createLanguageMenu </td>
+          <td>(</td>
+          <td class="paramtype">QMenu *&#160;</td>
+          <td class="paramname"><em>languageMenu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Создание языкового меню </p>
+<dl class="section return"><dt>Возвращает</dt><dd>void </dd></dl>
 
 </div>
 </div>
